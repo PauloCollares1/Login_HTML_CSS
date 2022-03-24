@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./assets/login-icon.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/cc1680a685.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="logo_header"><i class="fa-solid fa-key fa-lg"></i></div>
+        <nav>
+            <ul class="lista_header">
+                <li><a href="/">Eu</a></li>
+                <li><a href="/">Projeto</a></li>
+                <li id="darkmode" class="darkmode" onclick="dark_theme()"><i class="fa-regular fa-lightbulb fa-lg"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sessao_login">
+        <div class="login_card">
+            
+            <h1>Autenticador</h1>
+            <i class="fa-solid fa-lock fa-xl"></i>
+            <form class="formulario_login">
+                <input type="text" id="login_html" name="login_html" minlength="3" maxlength="30" required placeholder="Login">
+                <input type="password" id="senha_html" name="senha_html" minlength="3" maxlength="20" required placeholder="Senha">
+                <button id="botao_logar_html" onclick="">Logar !</button>
+            </form>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p>That's all Folks!</p>
+        <p>Powered by: PauloDev1</p>
+    </footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
